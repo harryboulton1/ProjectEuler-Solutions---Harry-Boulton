@@ -1,11 +1,6 @@
 
 #1 - Multiples of 3 and 5
 def p1():
-
-
-
-
-
     numbers = []
     for i in range(1000):
         if i % 3 == 0:
@@ -62,7 +57,6 @@ def p3():
             
     answer = pfs(600851475143)
     return answer
-
 #4 - Largest Palindrome Product
 def p4():
     def palindrome_check(n):
@@ -187,11 +181,7 @@ def p8():
     answer = products[-1]
 
     return answer
-
-
 #9 - Special Pythagorean Triplet
-
-
 def p9():
     a, b, c = 0, 0, 0
 
@@ -564,8 +554,6 @@ def p21():
                     amicables.append(a)
                 if d(b) not in amicables:
                     amicables.append(a)
-        print(a)
-        print(amicables)
     #print(amicables)
 
     return sum(amicables)
@@ -678,10 +666,6 @@ def p28():
         elif shift < 0:
             shift = -1*(shift-1)
         return shift
-
-
-    
-
 
 
 def p29():
@@ -871,7 +855,7 @@ def p39():
         return len(solutions)
 
 
-    r = 120
+    r = 1000
 
     print("Generating Dictionary...")
 
@@ -892,6 +876,3 @@ def p48():
     for i in range(1,1000+1):
         total += i**i
     return total
-
-
-print(p48())
