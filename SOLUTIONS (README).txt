@@ -8,6 +8,6 @@ Semi-complete solutions: 3, 5, 9, 21, 23, 39, 206
 #Were working, broken
 Broken solutions: 13
 
-# Started solutions but not working
+# Started solutions but not complete
 Incomplete solutions: 28, 145, 151
 
